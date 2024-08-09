@@ -27,9 +27,9 @@ How viewers may indulge:
 Methodology
     The GoodReads data includes publications from 1/1/1980-12/30/2023 and their current ratings, reviews, “want to read” count, and “likes” count. The Louisville Metro library inventory data was compiled on 3/1/2024 and it gives basic detail of all items owned by the library system, even if they’re currently being borrowed by patrons. All electronics and ebooks were filtered out from both datasets. All 2024 publications in the library database were removed to allow more closely related time ranges.
 
-    Tables from both data sources were cleaned & merged into 3 relational tables - one describing the Books, another describing the GoodReads Popularity, and a third describing the Library Inventory.
+ Tables from both data sources were cleaned & merged into 3 relational tables - one describing the Books, another describing the GoodReads Popularity, and a third describing the Library Inventory.
 
-    The raw data used in this program was acquired from Louisville Metro Open Data and Kaggle.com via the below links.
+ The raw data used in this program was acquired from Louisville Metro Open Data and Kaggle.com via the below links.
     https://data.louisvilleky.gov/datasets/372216992aea4b2cb5b02837d7a48eaf/about
     https://www.kaggle.com/datasets/cristaliss/ultimate-book-collection-top-100-books-up-to-2023/data
 
