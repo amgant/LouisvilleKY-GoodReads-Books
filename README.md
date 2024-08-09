@@ -4,9 +4,9 @@ Objective
     GoodReads is a website where readers can share critiques and compile personal lists of books that interest them (it does not sell or publish books). 
     Are there any trends or correlations between the GoodReads popularity of books/media and the Louisville Free Public Library’s inventory?
     
-    Some people think public libraries are obselete because of the rise of ebooks, but the Louisville Metro library system is bustling with patrons still, even for physical books. GoodReads is a website with 90 million international users, where readers can share critiques and compile personal lists of books that interest them (it does not sell or publish books). The hope is this project can be used to figure out whether Louisville is well-equipped for the global popular demand for certain books and media.
+   Some people think public libraries are obselete because of the rise of ebooks, but the Louisville Metro library system is bustling with patrons still, even for physical books. GoodReads is a website with 90 million international users, where readers can share critiques and compile personal lists of books that interest them (it does not sell or publish books). The hope is this project can be used to figure out whether Louisville is well-equipped for the global popular demand for certain books and media.
 
-    An assumption is that international GoodReads book/media demand may be similar to Louisville's book/media demand. Louisville Metro does not provide such details to the public, so there is not much to make an educated guess. This exercise will display final visuals that shed a light on any interesting trends or lack thereof.
+   An assumption is that international GoodReads book/media demand may be similar to Louisville's book/media demand. Louisville Metro does not provide such details to the public, so there is not much to make an educated guess. This exercise will display final visuals that shed a light on any interesting trends or lack thereof.
 
 
 How viewers may indulge:
