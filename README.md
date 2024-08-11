@@ -4,9 +4,9 @@ Objective
     GoodReads is a website where readers can share critiques and compile personal lists of books that interest them (it does not sell or publish books). 
     Are there any trends or correlations between the GoodReads popularity of books/media and the Louisville Free Public Library’s inventory?
     
-    Some people think public libraries are obselete because of the rise of ebooks, but the Louisville Metro library system is bustling with patrons still, even for physical books. GoodReads is a website with 90 million international users, where readers can share critiques and compile personal lists of books that interest them (it does not sell or publish books). The hope is this project can be used to figure out whether Louisville is well-equipped for the global popular demand for certain books and media.
+   Some people think public libraries are obselete because of the rise of ebooks, but the Louisville Metro library system is bustling with patrons still, even for physical books. GoodReads is a website with 90 million international users, where readers can share critiques and compile personal lists of books that interest them (it does not sell or publish books). The hope is this project can be used to figure out whether Louisville is well-equipped for the global popular demand for certain books and media.
 
-    An assumption is that international GoodReads book/media demand may be similar to Louisville's book/media demand. Louisville Metro does not provide such details to the public, so there is not much to make an educated guess. This exercise will display final visuals that shed a light on any interesting trends or lack thereof.
+   An assumption is that international GoodReads book/media demand may be similar to Louisville's book/media demand. Louisville Metro does not provide such details to the public, so there is not much to make an educated guess. This exercise will display final visuals that shed a light on any interesting trends or lack thereof.
 
 
 How viewers may indulge:
@@ -27,9 +27,9 @@ How viewers may indulge:
 Methodology
     The GoodReads data includes publications from 1/1/1980-12/30/2023 and their current ratings, reviews, “want to read” count, and “likes” count. The Louisville Metro library inventory data was compiled on 3/1/2024 and it gives basic detail of all items owned by the library system, even if they’re currently being borrowed by patrons. All electronics and ebooks were filtered out from both datasets. All 2024 publications in the library database were removed to allow more closely related time ranges.
 
-    Tables from both data sources were cleaned & merged into 3 relational tables - one describing the Books, another describing the GoodReads Popularity, and a third describing the Library Inventory.
+ Tables from both data sources were cleaned & merged into 3 relational tables - one describing the Books, another describing the GoodReads Popularity, and a third describing the Library Inventory.
 
-    The raw data used in this program was acquired from Louisville Metro Open Data and Kaggle.com via the below links.
+ The raw data used in this program was acquired from Louisville Metro Open Data and Kaggle.com via the below links.
     https://data.louisvilleky.gov/datasets/372216992aea4b2cb5b02837d7a48eaf/about
     https://www.kaggle.com/datasets/cristaliss/ultimate-book-collection-top-100-books-up-to-2023/data
 
