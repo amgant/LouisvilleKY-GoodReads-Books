@@ -29,11 +29,15 @@ After you’ve finished looking at the project, type `deactivate` into your term
 
 </ul>
 
-* **Check out bookspandas.ipynb for all the Pandas (Python) data cleaning and aggregations.**
+* **Check out bookspandas.ipynb for all the Pandas (Python) data cleaning and aggregations. You can Preview it here in Github.**
 * **Check out the raw and clean csv files/datasets as you please.**
-* **View the Tableau visual dashboard either via the saved Tableau file in the repo, or this link for the conclusion.**
-- https://public.tableau.com/app/profile/aliyah.gant/viz/LouisvilleKY*GoodReads*Books*ConclusionTableauDash/1#1 
+* **View the Conclusion in the Tableau visual dashboard. You can access it either via the saved Tableau file in the repo (If you have Tableau Public on your device), or you can click the below link to view it online.**
 
+<ul>
+
+https://public.tableau.com/app/profile/aliyah.gant/viz/LouisvilleKY*GoodReads*Books*ConclusionTableauDash/1#1 
+
+</ul>
 
 
 ## Methodology
@@ -105,23 +109,23 @@ https://www.kaggle.com/datasets/cristaliss/ultimate*book*collection*top*100*book
 
 * The strongest significant correlations I found among the two datasets were all between the GoodReads measurements themselves.
 
-*Moderate Correlations:*
+**Moderate Correlations:**
 * *Sometimes*, physical books that the library holds *more* than 1 Edition of draw in *more* GoodReads users to Rate the physical books out of 5 stars, vs books that the library holds only 1 Edition of.
 
 * Sometimes, physical books that the library holds *more* than 1 Edition of have a *larger* quantity of GoodReads user notings of "Want to Read", vs books that the library only holds 1 Edition of.
 
 * Sometimes, GoodReads physical book listings with *higher* Ratings out of 5 will have *higher* Numbers of Ratings, Numbers of Reviews, users noting "Want to Read", *and* users noting themselves as a "Current Reader".
 
-*Strong Correlations:*
+**Strong Correlations:**
 * We can also say that *more often than not*, if a GoodReads physical book listing has a *high* Number of Ratings, then it also has a *high* Number of Reviews, users clicking the "Current Reader" button, *and* users clicking the "Want To Read" button for that book; **and vice versa* for all of those 4 GoodReads metrics.
 
-Weak Correlations:
+**Weak Correlations:**
 * There are a few *very weak* correlations among the quantity of physical library book copies, total editions of physical library books within the library system, the GoodReads number of "Current Readers", & their number of "Want to Read"'s.
 * There are also some *very weak* correlations between physical book *Price* vs. *GoodReads Ratings out of 5, Number of ratings, and Number of Reviews*. There is almost an **opposite** correlation between *library copies/book edition totals* and the book *Price* vs. *the aforementioned GoodReads ratings* & *Price*.
 * I would not consider these weak correlations truly significant, though they're fun to look at on a graph.
 
 <ul>
 
-Enjoy the interactive graphs & thanks for reading! ~ 🌸
+***Enjoy the interactive graphs & thanks for reading! ~ 🌸***
 
 </ul>
