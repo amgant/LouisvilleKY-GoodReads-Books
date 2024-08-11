@@ -15,13 +15,13 @@ An assumption is that international GoodReads book/media demand may be similar t
 
 <ul> 
 
-For Windows, run in your terminal:
-`tutorial*env\Scripts\activate`
-For Unix or MacOS, run in your terminal:
-`tutorial*env/bin/activate`
-If you get an error, try this command:
-`Set*ExecutionPolicy Unrestricted *Scope Process`
-then the activate statement again.
+For Windows, run in your terminal:<br>
+`tutorial*env\Scripts\activate`<br>
+For Unix or MacOS, run in your terminal:<br>
+`tutorial*env/bin/activate`<br>
+If you get an error, try this command:<br>
+`Set*ExecutionPolicy Unrestricted *Scope Process`<br>
+then the activate statement again.<br>
 After you’ve finished looking at the project, type `deactivate` into your terminal.
 
 </ul>
