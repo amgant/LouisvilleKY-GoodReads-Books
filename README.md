@@ -7,9 +7,9 @@
 The goal of this project is to compare physical book (print books & audiobook cd’s) inventory data of the Louisville Metro (KY) Free Public Library system with GoodReads.com’s print book & audiobook popularity ratings data.
 Are there any trends or correlations between the GoodReads popularity of physical books and the Louisville Free Public Library’s inventory?
 
-Some people think public libraries are obsolete because of the rise of ebooks, but the Louisville Metro Free Public Library system is bustling with patrons today, even for physical books. GoodReads is a website with 90 million international users, where readers can share critiques and compile personal lists of books that interest them (it does not sell or publish books). The hope is this project can be used to figure out whether Louisville is well*equipped for the global popular demand for certain books and media.
+Some people think public libraries are obsolete because of the rise of ebooks, but the Louisville Metro Free Public Library system is bustling with patrons today, even for physical books. GoodReads is a website with 90 million international users, where readers can share critiques and compile personal lists of books that interest them (it does not sell or publish books). The hope is this project can be used to figure out whether Louisville is well-equipped for the global popular demand for certain books and media.
 
-An assumption is that international GoodReads book/media demand may be similar to Louisville's book/media demand. The GoodReads data provides some potential insight into demand since it only includes the “top” books they’ve got listed on their site. The Louisville Metro Data/Library system does not provide such details to the public about their demand or decision*making process, so there is not much available to make the most educated guess. This exercise will display final visuals that may shed a light on interesting trends or lack thereof.
+An assumption is that international GoodReads book/media demand may be similar to Louisville's book/media demand. The GoodReads data provides some potential insight into demand since it only includes the “top” books they’ve got listed on their site. The Louisville Metro Data/Library system does not provide such details to the public about their demand or decision-making process, so there is not much available to make the most educated guess. This exercise will display final visuals that may shed a light on interesting trends or lack thereof.
 
 
 ***How viewers may indulge:***
@@ -19,11 +19,11 @@ An assumption is that international GoodReads book/media demand may be similar t
 <ul> 
 
 For Windows, run in your terminal:<br>
-`tutorial*env\Scripts\activate`<br>
+`tutorial-env\Scripts\activate`<br>
 For Unix or MacOS, run in your terminal:<br>
-`tutorial*env/bin/activate`<br>
+`tutorial-env/bin/activate`<br>
 If you get an error, try this command:<br>
-`Set*ExecutionPolicy Unrestricted *Scope Process`<br>
+`Set-ExecutionPolicy Unrestricted -Scope Process`<br>
 then the activate statement again.<br>
 After you’ve finished looking at the project, type `deactivate` into your terminal.
 
@@ -31,22 +31,23 @@ After you’ve finished looking at the project, type `deactivate` into your term
 
 * **Check out bookspandas.ipynb for all the Pandas (Python) data cleaning and aggregations. You can Preview it here in Github.**
 * **Check out the raw and clean csv files/datasets as you please.**
+* **Check out the Outline pdf file attached. The links in it do not work though, you'll have to click on the links from this README/Github page.**
 * **View the Conclusion in the Tableau visual dashboard. You can access it either via the saved Tableau file in the repo (If you have Tableau Public on your device), or you can click the below link to view it online.**
 
 <ul>
 
-https://public.tableau.com/app/profile/aliyah.gant/viz/LouisvilleKY*GoodReads*Books*ConclusionTableauDash/1#1 
+https://public.tableau.com/app/profile/aliyah.gant/viz/LouisvilleKY-GoodReads-Books-ConclusionTableauDash/1#1 
 
 </ul>
 
 
 ## Methodology
 
-The GoodReads data used is noted on Kaggle as the top book publications from 1/1/1980*12/30/2023 and their current ratings, reviews, and “want to read” count. “Want to read” is a public user feature similar to “liking” on social media, where users can note that they want to read a certain book. The Louisville Metro library inventory data was compiled on 3/1/2024 and it gives basic detail of all items owned by the library system, even if they’re currently being borrowed by library users. All 2024 publications in the library database were removed to allow more closely related time ranges. All electronics and ebooks were filtered out from both datasets.
+The GoodReads data used is noted on Kaggle as the top book publications from 1/1/1980-12/30/2023 and their current ratings, reviews, and “want to read” count. “Want to read” is a public user feature similar to “liking” on social media, where users can note that they want to read a certain book. The Louisville Metro library inventory data was compiled on 3/1/2024 and it gives basic detail of all items owned by the library system, even if they’re currently being borrowed by library users. All 2024 publications in the library database were removed to allow more closely related time ranges. All electronics and ebooks were filtered out from both datasets.
 
 The raw data used in this program was acquired from Louisville Metro Open Data and Kaggle.com via the below links.
 https://data.louisvilleky.gov/datasets/372216992aea4b2cb5b02837d7a48eaf/about
-https://www.kaggle.com/datasets/cristaliss/ultimate*book*collection*top*100*books*up*to*2023/data
+https://www.kaggle.com/datasets/cristaliss/ultimate-book-collection-top-100-books-up-to-2023/data
 
 ## Questions
 1. How many physical book copies does the Louisville Library system have of the popular physical books on GoodReads?
@@ -66,13 +67,13 @@ https://www.kaggle.com/datasets/cristaliss/ultimate*book*collection*top*100*book
 * Added a total versions/editions column to avoid ambiguity around different publications of the same book, removed duplicates of the same title & author as such.
 * Removed other duplicates from both datasets.
 * Removed ebooks & electronics from both datasets, to leave only physical books & audiobooks.
-* Removed post*2023 publications from the library dataset.
+* Removed post-2023 publications from the library dataset.
 * Removed irrelevant item types such as the library “Laptop”.
 * Cleaned up publication dates and author names to match across tables.
 * Replaced blanks or invalid values when useful.
 * *GoodReads Ratings >= Reviews by count, because users can rate without reviewing. But reviewers must rate.*
-* *Raw Library data * Each line is one copy of an item.*
-* *Raw GoodReads data * Each line is one recording of data (some duplicates).*
+* *Raw Library data - Each line is one copy of an item.*
+* *Raw GoodReads data - Each line is one recording of data (some duplicates).*
 
 *Raw Louisville Metro Library Data Makeup*
 * 1.07MM rows and about 20 columns
@@ -84,8 +85,8 @@ https://www.kaggle.com/datasets/cristaliss/ultimate*book*collection*top*100*book
 * Some items with 0 price, items like “Laptops” with high prices
 * No index
 * Louisville Open Data/Louisville Metro Government: 
-> “Definitions: BibNum * The unique identifier of a bibliographic record within our materials database. Materials with the same bibliographic # will generally have the same cataloging metadata, differing only in the barcode number, assigned location and anything else specific to the individual copy.”
-* https://catalog.data.gov/dataset/louisville*metro*ky*library*collection*inventory*5e94f   
+> “Definitions: BibNum - The unique identifier of a bibliographic record within our materials database. Materials with the same bibliographic # will generally have the same cataloging metadata, differing only in the barcode number, assigned location and anything else specific to the individual copy.”
+* https://catalog.data.gov/dataset/louisville-metro-ky-library-collection-inventory-5e94f   
 
 *Raw GoodReads Data Makeup*
 * 10k rows and about 30 columns
@@ -107,24 +108,37 @@ https://www.kaggle.com/datasets/cristaliss/ultimate*book*collection*top*100*book
 
 * The Louisville Metro Free Public Library system has 255 physical unique books (by Title & Author) that are in the 3,752 GoodReads' physical books listings. They have over 1Million physical books outside the GoodReads physical books listing database.
 
-* The strongest significant correlations I found among the two datasets were all between the GoodReads measurements themselves.
+* The strongest significant correlations I found among the two datasets were all between the GoodReads measurements themselves, but there are moderate and weak correlations as well between the two datasets.
 
-**Moderate Correlations:**
+*Moderate Correlations:*
 * *Sometimes*, physical books that the library holds *more* than 1 Edition of draw in *more* GoodReads users to Rate the physical books out of 5 stars, vs books that the library holds only 1 Edition of.
 
 * *Sometimes*, physical books that the library holds *more* than 1 Edition of have a *larger* quantity of GoodReads user notings of "Want to Read", vs books that the library only holds 1 Edition of.
 
 * *Sometimes*, GoodReads physical book listings with *higher* Ratings out of 5 will have *higher* Numbers of Ratings, Numbers of Reviews, users noting "Want to Read", *and* users noting themselves as a "Current Reader".
 
-**Strong Correlations:**
-* We can also say that *more often than not*, if a GoodReads physical book listing has a *high* Number of Ratings, then it also has a *high* Number of Reviews, users clicking the "Current Reader" button, *and* users clicking the "Want To Read" button for that book; **and vice versa* for all of those 4 GoodReads metrics.
+*Strong Correlations:*
+* We can also say that *more often than not*, if a GoodReads physical book listing has a *high* Number of Ratings, then it also has a *high* Number of Reviews, users clicking the "Current Reader" button, *and* users clicking the "Want To Read" button for that book; **and vice versa** for all of those 4 GoodReads metrics.
 
-**Weak Correlations:**
+*Weak Correlations:*
 * There are a few *very weak* correlations among the quantity of physical library book copies, total editions of physical library books within the library system, the GoodReads number of "Current Readers", & their number of "Want to Read"'s.
 * There are also some *very weak* correlations between physical book *Price* vs. *GoodReads Ratings out of 5, Number of ratings, and Number of Reviews*. There is almost an **opposite** correlation between *library copies/book edition totals* and the book *Price* vs. *the aforementioned GoodReads ratings* & *Price*.
 * I would not consider these weak correlations truly significant, though they're fun to look at on a graph.
 
+##
+
 <ul>
+
+* Things to consider/limits:
+* A reminder that I excluded ebooks from both datasets for this project. The raw data used was so large it kept crashing my computer & confusing Python, so I had to save memory somewhere.
+* Perhaps GoodReads has a large amount of books that exist as physical books but are *only* listed on their website as ebooks. This could've cut out a lot of what their site was able to give. There were some inaccuracies I noticed in both datasets before clearing them appropriately.
+* Perhaps the print books the library has that GoodReads doesn't acknowledge are gems in their own regard. There are American favorites and Louisville favorites that don't do as well internationally & on GoodReads.
+* The users of these services are definitely different. These public libraries are typically very much local-community-minded & even have kids go there after school to use the computer & play Roblox before checking out their summer reading books, and young adults using the 3D printer, adults using the printer & checking out current cd's or cassetes. They run programs regularly to inform & uplift Louisville commununities with way more resources than just physical books & audiobooks, even in some ways that don't require folks to have library cards. Anyone can go there & users can get ebooks through the library for free off their website, a few ways they're quite accessible. GoodReads can't be browsed without you creating an account, so if someone doesn't want/have what's needed to create an account (a computer or smart device, an email address or social media account, etc.), they can't benefit from the site at all. So even though it's got an international user base, it's still more selective in who indulges with the site.
+* We may never know if a survey of Louisville library users asking them which books they are currently reading, want to read, and would rate out of 5 stars would look anything like this GoodReads data. Perhaps it's a bit above the library's resources or intent. I am probably more curious now than ever what algorithm or process they use to decide what books to replenish when they go missing or what books to get their first copies of, and what books not to get.
+
+It's not necessarily a bad thing that there are so few books in common with the datasets, it doesn't mean they're not getting their users what they need! I thought it was cool the libary data was basically the library's online catalogue, just without the info on whether or not items are currently checked out/available/on hold. I will be playing around more with this data/project, as I did not have time to work with SQL like I wanted to. I also have plenty of questions/ideas on what questions this database can answer & I learned Tableau is shockingly very different from Power BI yet they basically have the same capabilities. I'd like to look deeper in to the book price aspect of things, for one. The raw library data has prices that look accurate, for the ebook version and hardcover version of the same books for example, & some of them didn't exactly match GoodReads' price listings. Where does GoodReads get their book price/value data if they don't even sell books?
+
+If anything, this data can be used to show that multi-edition print books/audiobooks at the library are *a bit* likely to have more GoodReads ratings & GoodReads users who "Want to read"; and separately, if there are a lot of ratings/reviews/"Want to Reads"/"Current Readers" for a print book per GoodReads, then the rest of the metrics will be high as well, with a slightly lower correlation for the actual overall GoodReads Rating of the book itself; if one of those metrics are low, the rest are likely low, leaving out the lower correlation of the overall book Rating. So, I've done what I was set out to do! Feel free to star this project if you'd like to keep tabs!
 
 ***Enjoy the interactive graphs & thanks for reading! ~ 🌸***
 
