@@ -12,18 +12,20 @@ An assumption is that international GoodReads book/media demand may be similar t
 ***How viewers may indulge:***
 * **Clone this repo.**
 * **Open the virtual environment:**
+
 <ul> 
 
 For Windows, run in your terminal:
-tutorial*env\Scripts\activate
+`tutorial*env\Scripts\activate`
 For Unix or MacOS, run in your terminal:
-source tutorial*env/bin/activate
+`tutorial*env/bin/activate`
 If you get an error, try this command:
-Set*ExecutionPolicy Unrestricted *Scope Process
+`Set*ExecutionPolicy Unrestricted *Scope Process`
 then the activate statement again.
-After you’ve finished looking at the project, type “deactivate” into your terminal.
+After you’ve finished looking at the project, type `deactivate` into your terminal.
 
 </ul>
+
 * **Check out bookspandas.ipynb for all the Pandas (Python) data cleaning and aggregations.**
 * **Check out the raw and clean csv files/datasets as you please.**
 * **View the Tableau visual dashboard either via the saved Tableau file in the repo, or this link for the conclusion.**
