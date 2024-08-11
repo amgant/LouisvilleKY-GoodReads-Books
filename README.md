@@ -1,4 +1,4 @@
-# LouisvilleKY*GoodReads*Books
+# LouisvilleKY GoodReads Books
 ## Objective
 
 The goal of this project is to compare physical book (print books & audiobook cd’s) inventory data of the Louisville Metro (KY) Free Public Library system with GoodReads.com’s print book & audiobook popularity ratings data.
@@ -9,17 +9,21 @@ Some people think public libraries are obsolete because of the rise of ebooks, b
 An assumption is that international GoodReads book/media demand may be similar to Louisville's book/media demand. The GoodReads data provides some potential insight into demand since it only includes the “top” books they’ve got listed on their site. The Louisville Metro Data/Library system does not provide such details to the public about their demand or decision*making process, so there is not much available to make the most educated guess. This exercise will display final visuals that may shed a light on interesting trends or lack thereof.
 
 
-**How viewers may indulge:**
+***How viewers may indulge:***
 * **Clone this repo.**
 * **Open the virtual environment:**
-* For Windows, run in your terminal:
-* tutorial*env\Scripts\activate
-* For Unix or MacOS, run in your terminal:
-* source tutorial*env/bin/activate
-* If you get an error, try this command:
-* Set*ExecutionPolicy Unrestricted *Scope Process
-* then the activate statement again.
-* After you’ve finished looking at the project, type “deactivate” into your terminal.
+<ul> 
+
+For Windows, run in your terminal:
+tutorial*env\Scripts\activate
+For Unix or MacOS, run in your terminal:
+source tutorial*env/bin/activate
+If you get an error, try this command:
+Set*ExecutionPolicy Unrestricted *Scope Process
+then the activate statement again.
+After you’ve finished looking at the project, type “deactivate” into your terminal.
+
+</ul>
 * **Check out bookspandas.ipynb for all the Pandas (Python) data cleaning and aggregations.**
 * **Check out the raw and clean csv files/datasets as you please.**
 * **View the Tableau visual dashboard either via the saved Tableau file in the repo, or this link for the conclusion.**
@@ -36,16 +40,16 @@ https://data.louisvilleky.gov/datasets/372216992aea4b2cb5b02837d7a48eaf/about
 https://www.kaggle.com/datasets/cristaliss/ultimate*book*collection*top*100*books*up*to*2023/data
 
 ## Questions
-1 How many physical book copies does the Louisville Library system have of the popular physical books on GoodReads? 1
-2 Does the number of editions of a particular book available thru the library correlate significantly to GoodReads popularity? 2
-3 Does the GoodReads book value/price correlate to Louisville Metro library inventory? 3
+1. How many physical book copies does the Louisville Library system have of the popular physical books on GoodReads?
+2. Does the number of editions of a particular book available thru the library correlate significantly to GoodReads popularity?
+3. Does the GoodReads book value/price correlate to Louisville Metro library inventory?
 
 ## Programming Methodology
-1 Reading CSV files in via Pandas(Python) in Jupyter Notebook 1
-2 Cleaning & Combining data via Pandas Merge, and using some DataFrame summaries. 2
-3 Visualizations via Tableau. 3
-4 Virtual environment to ensure compatibility. 4
-5 Annotations via Jupyter Notebooks & README. 5
+1. Reading CSV files in via Pandas(Python) in Jupyter Notebook
+2. Cleaning & Combining data via Pandas Merge, and using some DataFrame summaries.
+3. Visualizations via Tableau.
+4. Virtual environment to ensure compatibility.
+5. Annotations via Jupyter Notebooks & README.
 
 ## Data Cleaning Goals & Considerations:
 * Created a relational database including a Books table, GoodReads Popularity table, & Library Inventory table.
@@ -75,22 +79,22 @@ https://www.kaggle.com/datasets/cristaliss/ultimate*book*collection*top*100*book
 * https://catalog.data.gov/dataset/louisville*metro*ky*library*collection*inventory*5e94f   
 
 *Raw GoodReads Data Makeup*
-10k rows and about 30 columns
-Some books are listed twice with everything the same except a slight difference in ratings or reviews.
-Some ISBN’s are blank or start with “(ISBN10:“ and are invalid
-Authors formatted as first name then last name
-Some blank “formats”/media types
-Genres are in a “[,]” format with multiple genres per item
-Publication dates are in several different formats, some blanks
-‘Current Readers’ has some decimals & some blanks
-‘Want To Read’ has some decimals & some blanks
-Price has some 0’s and some blanks
-Index starts at 0 & is numbered accurately
+* 10k rows and about 30 columns
+* Some books are listed twice with everything the same except a slight difference in ratings or reviews.
+* Some ISBN’s are blank or start with “(ISBN10:“ and are invalid
+* Authors formatted as first name then last name
+* Some blank “formats”/media types
+* Genres are in a “[,]” format with multiple genres per item
+* Publication dates are in several different formats, some blanks
+* ‘Current Readers’ has some decimals & some blanks
+* ‘Want To Read’ has some decimals & some blanks
+* Price has some 0’s and some blanks
+* Index starts at 0 & is numbered accurately
 
 
 ## Conclusion
 
-*While correlation does not necessarily equal causation, the following are what we can say about these datasets.*
+***While correlation does not necessarily equal causation, the following are what we can say about these datasets.***
 
 * The Louisville Metro Free Public Library system has 255 physical unique books (by Title & Author) that are in the 3,752 GoodReads' physical books listings. They have over 1Million physical books outside the GoodReads physical books listing database.
 
@@ -111,5 +115,8 @@ Weak Correlations:
 * There are also some *very weak* correlations between physical book *Price* vs. *GoodReads Ratings out of 5, Number of ratings, and Number of Reviews*. There is almost an **opposite** correlation between *library copies/book edition totals* and the book *Price* vs. *the aforementioned GoodReads ratings* & *Price*.
 * I would not consider these weak correlations truly significant, though they're fun to look at on a graph.
 
-- Enjoy the interactive graphs & thanks for reading! ~ 🌸
+<ul>
 
+Enjoy the interactive graphs & thanks for reading! ~ 🌸
+
+</ul>
