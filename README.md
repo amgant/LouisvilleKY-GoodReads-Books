@@ -1,4 +1,7 @@
 # LouisvilleKY GoodReads Books
+
+<img src="https://media.architecturaldigest.com/photos/55f9df5a14adf283236d85f4/16:9/w_1280,c_limit/dam-images-architecture-2013-11-libraries-libraries-22-st-florian-monastery.jpg" alt="Beautiful European Library"/>
+
 ## Objective
 
 The goal of this project is to compare physical book (print books & audiobook cd’s) inventory data of the Louisville Metro (KY) Free Public Library system with GoodReads.com’s print book & audiobook popularity ratings data.
