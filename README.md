@@ -112,9 +112,9 @@ https://www.kaggle.com/datasets/cristaliss/ultimate*book*collection*top*100*book
 **Moderate Correlations:**
 * *Sometimes*, physical books that the library holds *more* than 1 Edition of draw in *more* GoodReads users to Rate the physical books out of 5 stars, vs books that the library holds only 1 Edition of.
 
-* Sometimes, physical books that the library holds *more* than 1 Edition of have a *larger* quantity of GoodReads user notings of "Want to Read", vs books that the library only holds 1 Edition of.
+* *Sometimes*, physical books that the library holds *more* than 1 Edition of have a *larger* quantity of GoodReads user notings of "Want to Read", vs books that the library only holds 1 Edition of.
 
-* Sometimes, GoodReads physical book listings with *higher* Ratings out of 5 will have *higher* Numbers of Ratings, Numbers of Reviews, users noting "Want to Read", *and* users noting themselves as a "Current Reader".
+* *Sometimes*, GoodReads physical book listings with *higher* Ratings out of 5 will have *higher* Numbers of Ratings, Numbers of Reviews, users noting "Want to Read", *and* users noting themselves as a "Current Reader".
 
 **Strong Correlations:**
 * We can also say that *more often than not*, if a GoodReads physical book listing has a *high* Number of Ratings, then it also has a *high* Number of Reviews, users clicking the "Current Reader" button, *and* users clicking the "Want To Read" button for that book; **and vice versa* for all of those 4 GoodReads metrics.
