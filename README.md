@@ -13,7 +13,7 @@ An assumption is that international GoodReads book/media demand may be similar t
 
 
 ***How viewers may indulge:***
-* **Clone this repo.**
+* **Clone this repo in your VS CODE terminal.**
 * **Open the virtual environment:**
 
 <ul> 
