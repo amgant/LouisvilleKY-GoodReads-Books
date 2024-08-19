@@ -13,19 +13,30 @@ An assumption is that international GoodReads book/media demand may be similar t
 
 
 ***How viewers may indulge:***
-* **Clone this repo in your VS CODE terminal.**
-* **Open the virtual environment:**
+* **Clone this repo in your Git Bash/Terminal.**
+* **Open the virtual environment (it might run best on a Windows computer):**
 
-<ul> 
+<ul>
 
+1. Type in your project folder of the terminal `python3 -m venv venv`<br>
+2. To open the Virtual Environment (you'll know it's open when you see "(venv)" at the top of your terminal prompt):<br>
 For Windows, run in your terminal:<br>
-`tutorial-env\Scripts\activate`<br>
-For Unix or MacOS, run in your terminal:<br>
-`tutorial-env/bin/activate`<br>
+`source venv/Scripts/activate`<br>
 If you get an error, try this command:<br>
+`venv/Scripts/activate`<br>
+If you still get an error, try the below command and then the ones above again:<br>
 `Set-ExecutionPolicy Unrestricted -Scope Process`<br>
-then the activate statement again.<br>
-After you’ve finished looking at the project, type `deactivate` into your terminal.
+
+For Unix or MacOS, run in your terminal:<br>
+`venv/bin/activate`<br>
+If you get an error, try this command:<br>
+`source venv/bin/activate`<br>
+If you still get an error, try this command and then the ones above again:<br>
+`Set-ExecutionPolicy Unrestricted -Scope Process`<br>
+
+3. Install the required packages. Type `pip install -r requirements.txt`<br>
+4. Once you've installed, you might have one module error which is fine. You mainly just want the correct python version. Check the version at play by using the commands `python --version` and `pip -V`. Results should be "Python 3.12.5", and "pip (python 3.12)" consecutively. This is now setup to view the python file.
+5. *After* you’ve finished looking at the project, type `deactivate` into your terminal before changing terminal directory to close the virtual environment.
 
 </ul>
 
