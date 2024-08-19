@@ -26,7 +26,6 @@ If you get an error, try this command:<br>
 `venv/Scripts/activate`<br>
 If you still get an error, try the below command and then the ones above again:<br>
 `Set-ExecutionPolicy Unrestricted -Scope Process`<br>
-
 For Unix or MacOS, run in your terminal:<br>
 `venv/bin/activate`<br>
 If you get an error, try this command:<br>
