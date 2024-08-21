@@ -117,7 +117,7 @@ https://www.kaggle.com/datasets/cristaliss/ultimate-book-collection-top-100-book
 
 ***While correlation does not necessarily equal causation, the following are what we can say about these datasets.***
 
-* The Louisville Metro Free Public Library system has atleast 1 copy each of a total of 255 physical published books that are within the 3,752 GoodReads' physical books listings. They have atleast 1 copy each of a total of 427,203 physical published books that are outside of the GoodReads physical books listing database.
+* The Louisville Metro Free Public Library system has atleast 1 copy each of a total of 255 physical published books that are within the 3,752 GoodReads' physical books listings. They also have atleast 1 copy each of a total of 427,203 physical published books that are outside of the GoodReads physical books listing database.
 
 * The strongest significant correlations I found among the two datasets were all between the GoodReads measurements themselves, but there are moderate and weak correlations as well between the two datasets.
 
