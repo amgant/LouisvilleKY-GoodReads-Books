@@ -142,7 +142,7 @@ https://www.kaggle.com/datasets/cristaliss/ultimate-book-collection-top-100-book
 
 <ul>
 
-* <ins>Things to consider/limits:<ins>
+<ins>Things to consider/limits:<ins>
 * A reminder that I excluded ebooks from both datasets for this project. The raw data used was so large it kept crashing my computer & confusing Python, so I had to save memory somewhere.
 * Perhaps GoodReads has a large amount of books that exist as physical books but are *only* listed on their website as ebooks. This could've cut out a lot of what their site was able to give. There were some inaccuracies I noticed in both datasets before clearing them appropriately.
 * Perhaps the physical books the library has that GoodReads doesn't acknowledge are gems in their own regard. There are American favorites and Louisville favorites that don't do as well internationally & on GoodReads.
