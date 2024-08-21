@@ -155,6 +155,6 @@ It's not necessarily a bad thing that there are so few books in common with the 
 
 If anything, this data can be used to show that multi-edition print books/audiobooks at the library are *a bit* likely to have more GoodReads Ratings & GoodReads users who "Want to read"; and separately, if there are a lot of ratings/reviews/"Want to Reads"/"Current Readers" (any 1 of the 4) for a print book per GoodReads, then the rest of the 4 metrics will be high as well, and a slightly weaker correlation for the 5th metric (actual overall GoodReads Rating of the book itself); and if one of those metrics are low, the rest are likely low with the slightly weaker correlation of the overall book Rating. So, I've done what I was set out to do! Feel free to star this project if you'd like to keep tabs!
 
-***Enjoy the interactive graphs & thanks for reading! ~ 🌸***
+***Enjoy the interactive graphs in the Tableau dashboard & thanks for reading! ~ 🌸***
 
 </ul>
