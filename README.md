@@ -57,6 +57,7 @@ The GoodReads data used is noted on Kaggle as the top book publications from 1/1
 
 The raw data used in this program was acquired from Louisville Metro Open Data and Kaggle.com via the below links.
 https://data.louisvilleky.gov/datasets/372216992aea4b2cb5b02837d7a48eaf/about
+
 https://www.kaggle.com/datasets/cristaliss/ultimate-book-collection-top-100-books-up-to-2023/data
 
 ## Questions
