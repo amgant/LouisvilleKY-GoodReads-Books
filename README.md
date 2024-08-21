@@ -4,8 +4,8 @@
 
 ## Objective
 
-The goal of this project is to compare physical book (print books & audiobook cd’s) inventory data of the Louisville Metro (KY) Free Public Library system with GoodReads.com’s print book & audiobook popularity ratings data.
-Are there any trends or correlations between the GoodReads popularity of physical books and the Louisville Free Public Library’s inventory?
+The goal of this project is to compare physical book (print books & audiobook cd’s) inventory data of the Louisville Metro (KY) Free Public Library system with GoodReads.com’s print book & audiobook popularity ratings data. For the purpose of this project, by "physical book(s)", I mean print books & audiobook cd's.
+Are there any trends or correlations between the GoodReads popularity of physical book listings and the Louisville Free Public Library’s inventory?
 
 Some people think public libraries are obsolete because of the rise of ebooks, but the Louisville Metro Free Public Library system is bustling with patrons today, even for physical books. GoodReads is a website with 90 million international users, where readers can share critiques and compile personal lists of books that interest them (it does not sell or publish books). The hope is this project can be used to figure out whether Louisville is well-equipped for the global popular demand for certain books and media.
 
@@ -40,10 +40,9 @@ If you still get an error, try this command and then the ones above again:<br>
 </ul>
 
 * **Check out bookspandas.ipynb for all the Pandas (Python) data cleaning and aggregations. You can Preview it here in Github.**
-* **Check out the raw and clean csv files/datasets as you please.**
-* **Check out the Outline pdf file attached. The links in it do not work though, you'll have to click on the links from this README/Github page.**
-* **View the Tableau visual dashboard.** ***It is best viewed on a computer screen via the .twb file in this repo (if you have the Tableau Public program on your computer). You can also view it with a computer screen via the below link in fullscreen mode. The graphs are interactive, so you can filter to book titles & author names & see what it shows!*** **It is not really compatible with smaller or mobile devices. Unfortunately, the best way to view it on a smaller or mobile device is to view it from the link and click the Desktop Mode icon near the bottom of the page, scroll up to find the Desktop Mode prompt and click OK, & then pan around on each page so you can see & read it all. All other mobile views don't show up the way they should.**
-* **See the conclusion in the visual dashboard, but also know that I will keep working on this for fun, and the most updated conclusion will be in this README file in the conclusion section, rather than in the Tableau dashboard.**
+* **Check out the raw and clean data csv files/datasets as you please.**
+* **View the Tableau visual dashboard.** ***It is best viewed on a computer screen via the .twbx file in this repo (if you have the Tableau Public program on your computer). You can also view it with a computer screen via the below link in fullscreen mode. The graphs are interactive, so you can filter to book titles & author names & see what it shows!*** **It is not really compatible with smaller or mobile devices. Unfortunately, the best way to view it on a smaller or mobile device is to view it from the link and click the Desktop Mode icon near the bottom of the page, scroll up to find the Desktop Mode prompt and click OK, & then pan around on each page so you can see & read it all. All other mobile views don't show up the way they should.**
+* **See the conclusion in the visual dashboard, but also know that I will keep working on this for fun, and the most updated conclusion will probably be in this README file in the conclusion section, rather than in the Tableau dashboard.**
 
 <ul>
 
