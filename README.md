@@ -53,7 +53,7 @@ https://public.tableau.com/app/profile/aliyah.gant/viz/LouisvilleKY-GoodReads-Bo
 
 ## Methodology
 
-The GoodReads data used is noted on Kaggle as the top book publications from 1/1/1980-12/30/2023 and their current ratings, reviews, and “want to read” count. “Want to read” is a public user feature similar to “liking” on social media, where users can note that they want to read a certain book. The Louisville Metro library inventory data was compiled on 3/1/2024 and it gives basic detail of all items owned by the library system, even if they’re currently being borrowed by library users. All 2024 publications in the library database were removed to allow more closely related time ranges. All electronics and ebooks were filtered out from both datasets.
+The GoodReads data used is noted on Kaggle as the top book publications from 1/1/1980-12/30/2023 and their current ratings, reviews, "current reader" and “want to read” counts. "Current reader" and “want to read” are public user features similar to “liking” on social media, where users can note that they are currently reading a book and can also note separately if they want to read a certain book. The Louisville Metro library inventory data was compiled on 3/1/2024 and it gives basic detail of all items owned by the library system, even if they’re currently being borrowed by library users. All 2024 publications in the library database were removed to allow more closely related time ranges. All electronics and ebooks were filtered out from both datasets.
 
 The raw data used in this program was acquired from Louisville Metro Open Data and Kaggle.com via the below links.
 https://data.louisvilleky.gov/datasets/372216992aea4b2cb5b02837d7a48eaf/about
