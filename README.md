@@ -56,6 +56,7 @@ https://public.tableau.com/app/profile/aliyah.gant/viz/LouisvilleKY-GoodReads-Bo
 The GoodReads data used is noted on Kaggle as the top book publications from 1/1/1980-12/30/2023 and we will use the metrics it provides of average rating (out of 5 Stars), number of ratings, number of reviews, "current reader" and “want to read” counts. "Current reader" and “want to read” are public user features similar to “liking” on social media, where users can note that they are currently reading a book and can also note separately if they want to read a certain book. The Louisville Metro library inventory data was compiled on 3/1/2024 and it gives basic detail of all items owned by the library system, even if they’re currently being borrowed by library users. All 2024 publications in the library database were removed to allow more closely related time ranges. All electronics and ebooks were filtered out from both datasets.
 
 The raw data used in this program was acquired from Louisville Metro Open Data and Kaggle.com via the below links.
+
 https://data.louisvilleky.gov/datasets/372216992aea4b2cb5b02837d7a48eaf/about
 
 https://www.kaggle.com/datasets/cristaliss/ultimate-book-collection-top-100-books-up-to-2023/data
@@ -134,7 +135,7 @@ https://www.kaggle.com/datasets/cristaliss/ultimate-book-collection-top-100-book
 
 *Weak Correlations:*
 * There are a few *very weak* correlations among the quantity of physical library book copies, total editions of physical library books within the library system, the GoodReads number of "Current Readers", & their number of "Want to Read"'s.
-* There are also some *very weak* yet positive correlations between physical book *Price* vs. *GoodReads Ratings out of 5, Number of ratings, and Number of Reviews*. There is almost an opposite *still very weak* negative correlation between *library copies/book edition totals* and the book *Price* vs. *the aforementioned GoodReads ratings* & *Price*. [In other words], there is a *very very slight* suggestion by the data that as we look at book price, GoodReads book Ratings, Number of Ratings, and Number of Reviews all go up with book price, while the quantity of library Copies & Editions available in the Louisville Metro Library system go down.
+* There are also some *very weak* yet positive correlations between physical book *Price* vs. *GoodReads Ratings out of 5, Number of ratings, and Number of Reviews*. There is almost an opposite *still very weak* negative correlation between *library copies/book edition totals* and the book *Price* vs. *the aforementioned GoodReads ratings* & *Price*. <ins>In other words<ins>, there is a *very very slight* suggestion by the data that as we look at book price, GoodReads book Ratings, Number of Ratings, and Number of Reviews all go up with book price, while the quantity of library Copies & Editions available in the Louisville Metro Library system go down.
 * I would not consider these weak correlations truly significant, though they're fun to look at on a graph.
 
 ##
