@@ -134,7 +134,7 @@ https://www.kaggle.com/datasets/cristaliss/ultimate-book-collection-top-100-book
 
 *Weak Correlations:*
 * There are a few *very weak* correlations among the quantity of physical library book copies, total editions of physical library books within the library system, the GoodReads number of "Current Readers", & their number of "Want to Read"'s.
-* There are also some *very weak* yet positive correlations between physical book *Price* vs. *GoodReads Ratings out of 5, Number of ratings, and Number of Reviews*. There is almost an **opposite** *still very weak* negative correlation between *library copies/book edition totals* and the book *Price* vs. *the aforementioned GoodReads ratings* & *Price*. In other words, there is a *very very slight* suggestion by the data that as we look at book price, GoodReads book Ratings, Number of Ratings, and Number of Reviews all go up with book price, while the quantity of library Copies & Editions available in the Louisville Metro Library system go down.
+* There are also some *very weak* yet positive correlations between physical book *Price* vs. *GoodReads Ratings out of 5, Number of ratings, and Number of Reviews*. There is almost an opposite *still very weak* negative correlation between *library copies/book edition totals* and the book *Price* vs. *the aforementioned GoodReads ratings* & *Price*. [In other words], there is a *very very slight* suggestion by the data that as we look at book price, GoodReads book Ratings, Number of Ratings, and Number of Reviews all go up with book price, while the quantity of library Copies & Editions available in the Louisville Metro Library system go down.
 * I would not consider these weak correlations truly significant, though they're fun to look at on a graph.
 
 ##
