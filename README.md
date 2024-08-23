@@ -4,7 +4,7 @@
 
 ## Objective
 
-The goal of this project is to compare physical book (print books & audiobook cd’s) inventory data of the Louisville Metro (KY) Free Public Library system with GoodReads.com’s print book & audiobook popularity ratings data. For the purpose of this project, by "physical book(s)", I mean print books & audiobook cd's.
+The goal of this CodeYou Data Analytics certificate course capstone project from Spring/Summer 2024 is to compare physical book (print books & audiobook cd’s) inventory data of the Louisville Metro (KY) Free Public Library system with GoodReads.com’s print book & audiobook popularity ratings data. For the purpose of this project, by "physical book(s)", I mean print books & audiobook cd's.
 Are there any trends or correlations between the GoodReads popularity of physical book listings and the Louisville Free Public Library’s inventory?
 
 Some people think public libraries are obsolete because of the rise of ebooks, but the Louisville Metro Free Public Library system is bustling with patrons today, even for physical books. GoodReads is a website with 90 million international users, where readers can share critiques and compile personal lists of books that interest them (it does not sell or publish books). The hope is this project can be used to figure out whether Louisville is well-equipped for the global popular demand for certain books and media.
